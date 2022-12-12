@@ -19,11 +19,11 @@ spring:
     show-sql: true
 
 
-#rabbitmq:
-#  exchange-auth: ${rabbitmq-exchange-auth}
-#  bindingKey: ${rabbitmq-bindingKey}
-#  queueActivatedCode: ${rabbitmq-queueActivatedCode}
-#  userUpdateQueue: ${rabbitmq-userUpdateQueue}
+rabbitmq:
+  exchange-auth: ${rabbitmq-exchange-auth}
+  bindingKey: ${rabbitmq-bindingKey}
+  queueActivatedCode: ${rabbitmq-queueActivatedCode}
+  userUpdateQueue: ${rabbitmq-userUpdateQueue}
 rabbitmq:
   exchange-auth: "exchange-auth"
   bindingKey: "bindingKey"
